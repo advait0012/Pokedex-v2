@@ -39,7 +39,7 @@ body{
 .poke-type{
     display: inline-block;
     border-radius: 0.6rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.5rem 0.75rem;
     font-weight: 600;
     background-color: #000000;
@@ -47,25 +47,26 @@ body{
 }
 
 .poke-num{
-    font-size:1.5rem;
+    font-size:2rem;
     margin-bottom: 0.5rem;
 }
 
 .poke-name{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
 }
 
 .poke-text{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: black;
-    font-weight: 600;
+    // font-weight: 600;
     width: 20rem;
 }
 
 .info{
     width: 50%;
     height: 100%;
+    margin-left: 5rem;
 }
 
 .poke-details{
@@ -85,7 +86,7 @@ body{
 }
 
 .pokeimg{
-    height: 23rem;
+    height: 29rem;
     margin-left: 3rem;
     margin-top: -6rem;  
 }
