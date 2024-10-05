@@ -51,27 +51,26 @@ main {
   margin-bottom: 0.5rem;
 }
 
-.poke-num {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+.poke-num{
+    font-size:1.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.poke-name {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+.poke-name{
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
-.poke-text {
-  font-size: 1.5rem;
-  color: black;
-  font-weight: 600;
-  width: 20rem;
+.poke-text{
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    width: 20rem;
 }
 
-.info {
-  width: 50%;
-  height: 100%;
-  margin-left: 5rem;
+.info{
+    width: 50%;
+    height: 100%;
 }
 
 .poke-details {
@@ -90,11 +89,10 @@ main {
   height: 100%;
 }
 
-.pokeimg {
-  aspect-ratio: 1/1;
-  height: 30rem;
-  margin-left: 3rem;
-  margin-top: -6rem;
+.pokeimg{
+    height: 23rem;
+    margin-left: 3rem;
+    margin-top: -6rem;  
 }
 
 .flex {
