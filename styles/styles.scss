@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+    font-family: "Rubik";
+    // background: linear-gradient(to right, rgb(253, 253, 253), rgba(237, 237, 225, 0.9), rgba(233, 233, 184, 0.601), rgba(227, 227, 165, 0.799));
+    background-color: #e5c531;
+    // overflow: hidden;
+}
+
+.pokelogo{
+    height: 8rem;
+    width: 10rem;
+    filter: brightness(0) saturate(100%) invert(34%) sepia(80%) saturate(5016%) hue-rotate(351deg) brightness(94%) contrast(105%);
+    margin-left: 3rem;
+}
+
+.hero{
+    display: flex;
+    color: white;
+    margin-top: 4rem;
+    justify-content: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.poke-num,.poke-name{
+    color: #f62d14;
+    font-weight: 600;
+}
+
+.poke-type{
+    display: inline-block;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: 600;
+    background-color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.poke-num{
+    font-size:1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.poke-name{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.poke-text{
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    width: 20rem;
+}
+
+.info{
+    width: 50%;
+    height: 100%;
+}
+
+.poke-details{
+    margin-top: 2rem;
+    padding: 0.8rem 1.2rem;
+    background-color: #f62d14;
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.pokemonimg{
+    width: 50%;
+    height: 100%;
+}
+
+.pokeimg{
+    height: 23rem;
+    margin-left: 3rem;
+    margin-top: -6rem;  
+}
+
+
+@media screen and (max-width:920px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 9rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .info{
+        width: 20rem;
+    }
+    .pokeimg{
+        margin-left: -7rem;
+        margin-top: -7rem;
+    }
+}

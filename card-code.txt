@@ -1,0 +1,71 @@
+<body>
+  <section class="cards">
+    <div class="card">
+      <img src="	https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/2.png" alt="">
+      <p>#2</p>
+      <p>Ivysaur</p>
+      <div class="type flex">
+        <p>Grass</p>
+        <p>Poison</p>
+      </div>
+      <div class="height-wieght flex">
+        <div class="height">
+          <p>Height</p>
+          <p>0.7m</p>
+        </div>
+        <div class="weight">
+          <p>Weight</p>
+          <p>6.9kg</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+
+body{
+  height:120vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  background:#060b28;
+}
+
+.flex{
+  display:flex;
+}
+
+.card{  
+  border:1px solid black;
+  padding:5rem;
+  border-radius:2rem;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:white;
+  background: radial-gradient(ellipse at top, rgba(135, 221, 49, 0.4), rgba(135, 221, 49, 0.3), rgba(135, 221, 49, 0.2), rgba(135, 221, 49, 0.1), rgba(135, 221, 49, 0.004));
+}
+
+img{
+  position:absolute;
+  height:15rem;
+  transform:translateY(-100%);
+}
+.height-wieght{
+  gap:3rem
+}
+
+.type{
+  gap:3rem
+}
+
+.type>p{
+  padding:0.5rem 0.75rem;
+  border:1px solid white;
+  border-radius:0.5rem;
+
+}
