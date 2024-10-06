@@ -148,12 +148,21 @@ input[type="text"] {
   height: 15rem;
   transform: translateY(-105%);
   cursor: pointer;
+  transition: transform 1s ease;
 }
 
 .pokemon-no,
 .pokemon-name {
   font-size: 2rem;
   font-weight: 500;
+}
+
+.pokemon-name{
+  cursor: pointer;
+  transition:transform 1s ease;
+}
+.pokemon-name:hover{
+  transform: scale(1.2);
 }
 
 .type {
