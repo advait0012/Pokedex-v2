@@ -8,7 +8,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: "Rubik";
-  background-color: #e5c531;
+  background: linear-gradient(to left, #cac531, #f3f9a7);
   overflow-x: hidden;
 }
 
@@ -47,7 +47,7 @@ main {
   padding: 0.5rem 0.75rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  border: none;
+  border: 1px solid white;
 }
 
 .poke-num {
@@ -143,10 +143,15 @@ input[type="text"] {
   margin-right: 2rem;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .pokemoncardimg {
   position: absolute;
   height: 15rem;
-  transform: translateY(-105%);
+  transform: translate(-50%,-105%);
   cursor: pointer;
   transition: transform 1s ease;
 }

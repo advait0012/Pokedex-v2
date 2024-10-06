@@ -75,13 +75,15 @@ for (let pokemon of data) {
   const section = document.createElement("section");
   section.classList.add("cards");
   section.innerHTML = `<div class="card">
-        <img
-          class="pokemoncardimg"
-          src="${pokemon.image.hires}"
-          alt=""
-        />
+        <a href="#">
+          <img
+            class="pokemoncardimg"
+            src="${pokemon.image.hires}"
+            alt=""
+          />
+        </a>
         <p class="pokemon-no">#${pokemon.id}</p>
-        <p class="pokemon-name">${pokemon.name["english"]}</p>
+        <a href="#"><p class="pokemon-name">${pokemon.name["english"]}</p></a>
         <div class="type flex">
           <p class="pokemon-type">${pokemon.type[0]}</p>
           ${
