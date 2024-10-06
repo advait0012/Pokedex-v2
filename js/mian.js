@@ -3,6 +3,7 @@ import shuffle from "array-shuffle";
 
 const main = document.querySelector("main");
 const cardsSection = document.querySelector(".cards");
+const input = document.querySelector(".input")
 
 const shuffledData = shuffle(data);
 const pokemon = shuffledData[0];
@@ -208,3 +209,5 @@ card.forEach((type) => {
       "radial-gradient(ellipse at top, rgba(0, 85, 255, 0.4), rgba(0, 85, 255, 0.3), rgba(0, 85, 255, 0.2), rgba(0, 85, 255, 0.1), rgba(0, 85, 255, 0.004))";
   }
 });
+
+
