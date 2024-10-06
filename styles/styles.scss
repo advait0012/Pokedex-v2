@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: #222;
   height: 100vh;
   width: 100vw;
   font-family: "Rubik";
@@ -47,30 +46,30 @@ main {
   font-size: 1.5rem;
   padding: 0.5rem 0.75rem;
   font-weight: 600;
-  background-color: #000000;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+.poke-num {
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-.poke-num{
-    font-size:1.5rem;
-    margin-bottom: 0.5rem;
+.poke-name {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
-.poke-name{
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.poke-text {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 600;
+  width: 20rem;
 }
 
-.poke-text{
-    font-size: 1rem;
-    color: black;
-    font-weight: 600;
-    width: 20rem;
-}
-
-.info{
-    width: 50%;
-    height: 100%;
+.info {
+  width: 50%;
+  height: 100%;
 }
 
 .poke-details {
@@ -89,31 +88,33 @@ main {
   height: 100%;
 }
 
-.pokeimg{
-    height: 23rem;
-    margin-left: 3rem;
-    margin-top: -6rem;  
+.pokeimg {
+  height: 23rem;
+  margin-left: 3rem;
+  margin-top: -6rem;
+  
 }
 
 .flex {
   display: flex;
 }
 
-.input-group{
-    justify-content: center;
-    width: 100%;
-    margin-top: 10rem;
-
+.input-group {
+  justify-content: end;
+  width: 72%;
+  margin-top: 10rem;
 }
 
-input[type=text]{
-    width: 80%;
-    height: 4rem;
-    border-radius: 2rem;
-    padding-left: 3rem;
-    border: none;
-    outline: none;
-    font-size: 2rem;
+input[type="text"] {
+  width: 80%;
+  height: 4rem;
+  border-radius: 0.5rem;
+  padding-left: 3rem;
+  background-color: #ccc;
+  outline: none;
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
 }
 
 .cards {
@@ -124,12 +125,11 @@ input[type=text]{
   font-weight: 700;
   flex-wrap: wrap;
   overflow-x: hidden;
-//   flex-direction: column;
 }
 
 .card {
-  border: 1px solid black;
-  padding: 4.5rem 4.5rem 0 4.5rem;
+  border: none;
+  padding: 4rem 4.5rem 4.5rem 4.5rem;
   border-radius: 2rem;
   position: relative;
   display: flex;
@@ -138,15 +138,6 @@ input[type=text]{
   flex-direction: column;
   gap: 1rem;
   color: white;
-  border: 1px solid #87dd31;
-  background: radial-gradient(
-    ellipse at top,
-    rgba(135, 221, 49, 0.4),
-    rgba(135, 221, 49, 0.3),
-    rgba(135, 221, 49, 0.2),
-    rgba(135, 221, 49, 0.1),
-    rgba(135, 221, 49, 0.004)
-  );
   margin-top: 20rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -155,7 +146,8 @@ input[type=text]{
 .pokemoncardimg {
   position: absolute;
   height: 15rem;
-  transform: translateY(-115%);
+  transform: translateY(-105%);
+  cursor: pointer;
 }
 
 .pokemon-no,
@@ -168,9 +160,9 @@ input[type=text]{
   gap: 1rem;
 }
 
-.type > p {
+.pokemon-type {
   padding: 0.5rem 0.75rem;
-  border: 1px solid white;
+  border: none;
   border-radius: 0.5rem;
 }
 
@@ -191,15 +183,15 @@ input[type=text]{
 }
 
 button {
-  width: 162%;
+  width: 160%;
   height: 3rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   font-size: 1.5rem;
   font-weight: 600;
-  background-color: #87dd31;
   border: none;
-  color: white;
+  color: black;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 920px) {
