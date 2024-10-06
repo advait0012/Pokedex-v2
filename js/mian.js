@@ -75,7 +75,7 @@ for (let pokemon of data) {
   const section = document.createElement("section");
   section.classList.add("cards");
   section.innerHTML = `<div class="card">
-        <a href="#">
+        <a href="./pokemon.html">
           <img
             class="pokemoncardimg"
             src="${pokemon.image.hires}"
